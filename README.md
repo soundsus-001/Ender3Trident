@@ -1,5 +1,8 @@
 # Ender3Trident WIP
 
+![Image of Voron Trident](voron_trident_SB.png)
+
+
 Part list: Ender3Trident parts.md
 
 # Credits
