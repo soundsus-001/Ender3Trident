@@ -6,11 +6,11 @@ Hardware project (WIP): building a Voron Trident 3D printer, 250mm build size, w
 
 - `part-lists/` — project-specific parts: `Ender3Trident parts.md` (purchased parts + links) and `CSV-files/` (BOMs)
 - `vorontrident250mm.csv` — 250mm BOM; byte-identical duplicate of `part-lists/CSV-files/Trident250mmBOM.csv`. Keep them in sync or consolidate.
-- `Voron-Trident-Cloned-Repo/` — reference clone of upstream `VoronDesign/Voron-Trident` (STLs, Klipper firmware configs, DXFs, FreeCAD/STEP CAD, assembly manual PDF)
+- `Voron-Trident-Cloned-Repo/` — reference clone of upstream `VoronDesign/Voron-Trident` (STLs, Klipper firmware configs, DXFs, FreeCAD/STEP CAD, assembly manual PDF). **Untracked and gitignored** — exists only on this machine, not in the repo.
 
 ## Voron-Trident-Cloned-Repo gotchas
 
-- It is a **nested git repo** (own `.git`, origin = VoronDesign/Voron-Trident) tracked by the outer repo as a **gitlink with no `.gitmodules`**. The outer repo only pins its commit; edits inside it never appear in outer-repo diffs and are not pushed with the outer repo.
+- It is a **nested git repo** (own `.git`, origin = VoronDesign/Voron-Trident). The outer repo no longer tracks it (gitlink removed, listed in `.gitignore`), so nothing in it is pushed with the outer repo.
 - Treat it as read-only upstream reference. Project-specific changes belong in the outer repo (part-lists, README, root CSVs).
 - It has local uncommitted modifications (e.g. staged deletion of `voron_trident_SB.png`). Don't commit, reset, or "sync" it without asking.
 
