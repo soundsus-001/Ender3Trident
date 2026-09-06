@@ -3,7 +3,7 @@
 ![Image of Voron Trident](voron_trident_SB.png)
 
 
-Part list: Ender3Trident parts.md
+Part list: [Ender3Trident parts.md](part-lists/Ender3Trident%20parts.md)
 
 # Credits
 Voron Designs - [Voron Trident](https://github.com/VoronDesign/Voron-Trident) | [Website](https://vorondesign.com/voron_trident)
