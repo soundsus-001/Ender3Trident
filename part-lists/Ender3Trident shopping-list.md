@@ -6,7 +6,7 @@
 > Build: **Trident R2, 250mm, blind joints, Octopus Pro V1.1 + BTT Pi V1.2**, following the [Ender3dent](https://github.com/yell3D/Ender3dent) approach (maximize Ender 3 reuse).
 > Prices are **padded estimates** (base + ~$5, rounded up) to cover tax/shipping/price drift unless noted. Base prices in Notes.
 > **Quality policy:** electronics (Octopus Pro, Raspberry Pi, probe) must be **genuine** — no cheap/clone compatibles; if a part is listed as incompatible it's off the table. Everything else is lean but still **reputable-brand** (no no-name knockoffs).
-> **Budget target: as cheap as possible while keeping quality — core ≈ $805; ~$755–770 with trims. Stealthburner + Dragon + CW2 gear set + NEMA14 pancake = classic SB/CW2, max accel, no mods. Runner-up if you ever want −$25: reuse a NEMA17 via a spacer mod (printables 950092).**
+> **Budget target: as cheap as possible while keeping quality — core ≈ $1152; ~$1102 with trims. Includes the frame + linear rails (~$347, not yet purchased). Toolhead = Stealthburner + Dragon + CW2 gear set + NEMA14 pancake (classic SB/CW2, max accel, no mods).**
 > Companion files: `Ender3Trident parts.md` (purchased) · `CSV-files/Ender3Trident have-vs-need.csv` (gap analysis)
 
 ## REUSE from 2× Ender 3 (NOT on buy list — per Ender3dent README)
@@ -29,9 +29,18 @@
 | Rubber foot pads | 8× 20x40x3mm pads | 4× Rubber Foot (**verify** fit/flatness) |
 | Creality mainboard (yes, as secondary MCU) | 2× 1284P mainboards | optional — NOT needed if Octopus Pro drives all 6 steppers + bed heater directly |
 
-**Not yet purchased (see parts.md):** LDO frame kit 250mm, DIN rails 35mm, MGN9H 300 ×5, MGN12H 300 ×1. *(Nothing has been bought yet — these were previously assumed owned; add them to the budget when ordering.)*
+**Frame & rails (not yet purchased):** now budgeted in the **Frame & Rails** section below (~$347). *(Nothing has been bought yet — these were previously assumed owned.)*
 
-## BUY — Core (≈ $805; ~$755 trimmed; see totals)
+## BUY — Core (≈ $1152; ~$1102 trimmed; see totals)
+
+### Frame & Rails (~$347)
+
+| Qty | Part | Est. $ | Source | Link | Notes |
+|---|---|---|---|---|---|
+| 1 | LDO Trident frame kit 250mm | 140 | West3D | https://west3d.com/products/ldo-trident-frame-kit-multiple-colors | 2020 extrusion frame kit (250mm). From `parts.md`. **Verify 250mm variant + color at order.** |
+| 1 pair | DIN rails 35mm (steel) | 12 | West3D | https://west3d.com/products/din-rails-35mm-x-7-5mm-steel-pair | Electronics-bay mounting. From `parts.md`. |
+| 5 | MGN9H 300mm linear rail w/ carriage | 160 | West3D | https://west3d.com/products/ldo-motors-mgn9h-1r-300-350-4000-linear-rails-with-carriages | **$30.99/rail (300mm) ×5 = $155, padded.** A/B drives + Z. `parts.md` listed $32 = **per-rail** (not the total). Stainless, pre-lubed, 6× 5★. |
+| 1 | MGN12H 300mm linear rail w/ carriage | 35 | West3D | https://west3d.com/products/berserker-mgn12h-1r-300-350-400-linear-rails-viking-skis-with-carriages | X rail (×1). From `parts.md`. |
 
 ### Printed Parts (functional kit = buy; cosmetics = self-print PLA)
 
@@ -104,15 +113,16 @@
 
 | | Est. $ |
 |---|---|
+| Frame & Rails (frame kit + DIN + 5× MGN9H + MGN12H) | 347 |
 | Printed parts (kit) | 145 |
 | Fasteners | 70 |
 | Motion | 90 |
 | Electronics | 215 |
 | Toolhead (Dragon + CW2 gear set + NEMA14 pancake) | 125 |
 | Cables & Misc | 160 |
-| **Core total** | **~805** |
+| **Core total** | **~1152** |
 | Verifiable trims: RS-25-5 if Octopus 5V powers Pi (−15), drop 3mm-ID PTFE (−5, have 800mm 4/2), reuse Ender 3 ties/spades (−15), defer PEI sheet (−15) | −50 |
-| **~Expected total** | **~755–770 after the easy trims** (still ~$55–70 over the $700 cap). The CW2 gear set instead of the full BMG = **−$60** vs the earlier standard path; the overage is the Dragon ($75) + NEMA14 pancake ($25). Swapping the pancake for the NEMA17 spacer mod later −$25 → ~$730–745. |
+| **~Expected total** | **~1102 after the easy trims** (well over the $700 cap — the frame + rails alone are ~$347). The CW2 gear set instead of the full BMG = **−$60** vs the earlier standard path. Swapping the NEMA14 pancake for the NEMA17 spacer mod later −$25 → ~$1077. |
 
 ## BUY — Optional / Phase 2 (add when budget allows)
 
@@ -146,7 +156,7 @@
 - **Display:** 1284P is 128x64 like the Mini 12864, but verify pinout against the Octopus display port.
 - **Creality mainboard:** NOT needed — Octopus Pro (6 drivers) covers all 6 steppers + bed heater + probe. Keep boards as spares.
 - **Printed parts = the biggest hidden cost (~$145).** You can't print ABS, so the clean quality path is a **PIF/verified ABS functional kit** + **self-print the cosmetics in PLA** (see Printed Parts section — recommended). Alternative if strictly on a tight budget: print the structural kit yourself in **PETG** — but watch the 235×235 Ender 3 bed (several Trident parts are longer) and PETG softening near the hotend/enclosure; the kit also gives you the proper Voron-recommended ABS material and tolerances. ABS filament ≈ $25-35/roll × several rolls ≈ often more than the kit once you factor failed prints.
-- **Quality keeps the price reasonable:** the ~$755-770 total works *because* of Ender 3 reuse (leadscrews, bed + flexplate, PSU, AC inlet, harnesses, NEMA17s, 4010 fans) plus buying **reputable-brand** where you must. The toolhead is Dragon ($75) + CW2 gear set ($25) + **NEMA14 pancake ($25)** — not the full-BMG route (−$60 vs the BMG-complete plan). Remaining overcap = the Dragon + pancake; the ±$25 lever swings to the NEMA17 spacer mod; the big lever if $700 is a hard wall is the hotend (free/stock reuse).
+- **Quality keeps the price reasonable:** the ~$1102 total works *because* of Ender 3 reuse (leadscrews, bed + flexplate, PSU, AC inlet, harnesses, NEMA17s, 4010 fans) plus buying **reputable-brand** where you must. The frame + linear rails (~$347) are the largest single block and are **not yet purchased**. The toolhead is Dragon ($75) + CW2 gear set ($25) + **NEMA14 pancake ($25)** — not the full-BMG route (−$60 vs the BMG-complete plan). The ±$25 lever swings to the NEMA17 spacer mod; the big lever if $700 is a hard wall is the hotend (free/stock reuse).
 - **Roll-in vs drop-in T-nuts:** BDF kit ships roll-ins; fit tight in LDO extrusion.
 - **Frame:** Ender3dent warns NOT to use V-Slot or ITEM/Slot-5 extrusion — your LDO frame kit is fine (proper 2020).
 - Prices/stock verified 2026-09-06; West3D Labor Day sale 9/5–9/7 sitewide.
