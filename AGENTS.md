@@ -4,7 +4,10 @@ Hardware project (WIP): building a Voron Trident 3D printer, 250mm build size, w
 
 ## Layout
 
-- `part-lists/` — project-specific parts: `Ender3Trident parts.md` (purchased parts + links) and `CSV-files/` (BOMs)
+- `part-lists/` — project-specific parts: `Ender3Trident parts.md` (frame + linear rails, **not yet purchased**), `Ender3Trident shopping-list.md` (DRAFT budget list), and `CSV-files/` (BOMs)
+  - `CSV-files/Ender-3 BOM.csv` — stock Ender-3 parts list (comma-separated, different schema; see BOM format)
+  - `CSV-files/Trident250mmBOM.csv` — 250mm BOM (semicolon format; see BOM format)
+  - `CSV-files/Ender3Trident have-vs-need.csv` — derived gap analysis: 2× Ender-3 inventory vs. Trident BOM (`Category;Description;Qty Needed;Qty Available;Status;Notes`). Regenerate if either BOM changes.
 - `vorontrident250mm.csv` — 250mm BOM; byte-identical duplicate of `part-lists/CSV-files/Trident250mmBOM.csv`. Keep them in sync or consolidate.
 - `Voron-Trident-Cloned-Repo/` — vendored copy of upstream `VoronDesign/Voron-Trident` (STLs, Klipper firmware configs, DXFs, FreeCAD/STEP CAD, assembly manual PDF). Its `.git` was removed, so the files are tracked directly by this repo; there is no link to the upstream remote.
 
@@ -15,7 +18,8 @@ Hardware project (WIP): building a Voron Trident 3D printer, 250mm build size, w
 
 ## BOM format
 
-Semicolon-separated `Category;Description;Qty;Notes`; `Category` is only filled on the first row of each group (blank thereafter).
+- Trident BOM: semicolon-separated `Category;Description;Qty;Notes`; `Category` is only filled on the first row of each group (blank thereafter).
+- Ender-3 BOM: different schema, comma-separated `Part Code,Part Name,Specification,UNIT,Qty`. Do not mix the two formats.
 
 ## Voron STL naming conventions (in the cloned repo)
 

@@ -1,3 +1,7 @@
+# Ender3Trident — Frame & Linear Rails
+
+> **Not yet purchased** (as of 2026-09-06). These were previously assumed owned; add to the budget when ordering. Companion to `Ender3Trident shopping-list.md`.
+
 | Part               | Price | Links                                                                                                                      |
 | ------------------ | ----- | -------------------------------------------------------------------------------------------------------------------------- |
 | Frame              | $140  | https://west3d.com/products/ldo-trident-frame-kit-multiple-colors                                                          |

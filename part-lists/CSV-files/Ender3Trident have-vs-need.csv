@@ -1,0 +1,111 @@
+Category;Description;Qty Needed;Qty Available (2x Ender 3);Status;Notes
+Fasteners;2020 Drop-in T-nut, M5;69;6;Partial;6x M5 T-slot nuts from Ender 3 (3 each)
+;M5x40 BHCS;4;4;Have;4x M5*40 socket head screws from Ender 3 (2 each) - exact match
+;M5x30 BHCS;4;20;Partial;20x M5*30 pan head screws available (10 each) - pan head not BHCS, verify if acceptable
+;M5x16 BHCS;58;0;Don't have;
+;M5x10 BHCS;45;0;Don't have;16x M5*8 pan head available (wrong size and head type)
+;M5 1mm Spacer;24;0;Don't have;
+;M5xD7xL6 Heat Set;15;0;Don't have;
+;M4x6 BHCS;7;14;Partial;14x M4*8 socket head screws available (7 each) - 2mm longer, verify fit
+;M4 Knurled Nut;3;0;Don't have;
+;M3x50 SHCS;2;0;Don't have;
+;M3x40 SHCS;9;8;Partial;8x M3*40 pan head screws available (4 each) - pan head not SHCS
+;M3x30 SHCS;13;0;Don't have;
+;M3x25 SHCS;10;0;Don't have;
+;M3x20 SHCS;3;0;Don't have;
+;M3x16 SHCS;27;10;Partial;10x M3*16 pan head screws available (5 each) - pan head not SHCS
+;M3x12 SHCS;73;0;Don't have;
+;M3x8 SHCS;140;0;Don't have;
+;M3x6 BHCS;59;36;Partial;36x M3*6 pan head screws available (18 each) - pan head not BHCS
+;M3x10 FHCS;2;0;Don't have;
+;M3x6 FHCS;17;0;Don't have;
+;M3 Locknut;6;0;Don't have;
+;M3 Washer;4;12;Have;12x M3 split washers from Ender 3 (6 each)
+;2020 Drop-in T-nut, M3;86;0;Don't have;16x M4 T-slot nuts available (wrong size)
+;M3 Hammerhead T-Nut;55;0;Don't have;
+;M3xD5xL4 Heat Set;109;0;Don't have;
+;M2x10 Selftapping screw;17;0;Don't have;4x M2*10 socket head screws available (different type)
+Motion;GT2 20T Pulley (5mm ID 6mm W);3;4;Have;4x 2GT-d5-20-6mm pulleys from Ender 3 (2 each) - exact spec match
+;GT2 20T Toothed Idler (5mm ID 6mm W);2;0;Don't have;
+;F695 Bearing;26;0;Don't have;52x 625ZZ available (5x16x5 vs F695 5x17x5 - not interchangeable)
+;GE5C Spherical Bearing;3;0;Don't have;
+;TR8x4 Leadscrew Nut;3;0;Don't have;2x T8x8 Z nuts available (different pitch)
+;5x30mm Shaft;1;0;Don't have;
+;BMG Extruder Components Kit;1;0;Don't have;Ender 3 extruder (E motor bracket/housing/gear) not compatible
+;Linear Rail MGN12H 300mm;1;0;Don't have;Not yet purchased (see Ender3Trident parts.md)
+;Linear Rail MGN9H 300mm;5;0;Don't have;Not yet purchased (see Ender3Trident parts.md)
+;GT2 Open Belt LL-2GT-6 (6mm wide) - 1690mm;2;0;Partial;4x 2M GT2 6mm belts available (2x 786mm + 2x 743mm = 3058mm total; 3380mm needed) - same belt type, insufficient length even spliced
+Vibration Management;Rubber Foot;4;8;Partial;8x 20x40x3mm rubber foot pads available (4 each) - different shape, verify fit
+Electronics;NEMA17 Motor 17HS19-2004S;2;2;Have;2x 42-40 (40Ncm) motors from Ender 3 match torque spec; 6x 42-34 (34Ncm) also available as spares - verify current rating
+;SPDT KW10 Limit Micro Switch;3;6;Have;6x 3-pin limit switches from Ender 3 (3 each) - verify SPDT
+;Omron TL-Q5MC2 - NPN, NC, 5mm Sense Inductive Probe;1;0;Don't have;Self-leveling probe - planned purchase
+;E3D V6 Bowden Hotend Kit (24V);1;0;Don't have;Ender 3 hotend (heat block/nozzle/heater/catheter) not compatible with E3D V6
+;50x50x15 Centrifugal Fan (24V);1;0;Don't have;
+;40x40x10 Axial Fan (24V);1;6;Have;6x 24V 4010 fans from Ender 3 (3 each: cold section, nozzle, case)
+;Mini 12864 Display;1;2;Have;2x 1284P (128x64) displays available - verify connector/pinout compatibility
+;Medium Blow Fuse 5 x 20mm: 4A for 220V mains or 8A for 120v;2;0;Don't have;
+;TycoElectronics 10EGG1-2 Filtered Power Inlet;1;0;Don't have;
+;ZF - Rocker Switches DPST 16A;1;0;Don't have;2x 10A power switches available (different type and rating)
+;Keystone CAT6 Insert (Optional);1;0;Don't have;Optional item
+;60x60x20 Fan (24V);3;0;Don't have;
+;6 Stepper Controller (or multiple to equal 6+ steppers);1;0;Don't have;Planned purchase: Octopus Pro (all-in-one 6 stepper board)
+;TMC2209 Stepper Motor Driver;6;0;Don't have;Covered by planned Octopus Pro purchase (drivers built in)
+;Raspberry Pi 4;1;0;Don't have;Planned purchase
+;Mean Well LRS-200-24 PSU;1;2;Have;2x 24V 15A (360W) PSUs from Ender 3 can substitute for 200W LRS-200-24 - different form factor, mounting will need adaptation
+;Mean Well TBC-09 Terminal Cover;1;0;Don't have;
+;Mean Well RS-25-5 PSU;1;0;Don't have;
+;Omron G3A-210B-DC5 SSR;1;0;Don't have;
+;DIN Rail Mount Bracket for G3A SSR;1;0;Don't have;
+;BAT85 Diode;1;0;Don't have;
+;C13 Power Cord;1;2;Have;2x power cords from Ender 3 - verify C13 connector
+;Thermal Fuse (150C);1;0;Don't have;
+;NEMA14 Motor 36STH20-1004AHG;1;0;Don't have;
+;NeoPixel RGBW Mini Button PCB;3;0;Don't have;
+;NEMA17 TR8x4 300mm Linear Stepper;3;0;Don't have;
+Misc;PTFE Tube (4mm OD 2mm ID; Toolhead) - 1m;1;0;Partial;800mm D4-d2 PTFE tube available (400mm each) - 200mm short
+;3M VHB Tape 5952;1;0;Don't have;
+;Single Sided Foam Tape (3mm Thick, 5-6mm Wide);9;0;Don't have;
+;Loctite Blue Threadlocker Stick;1;0;Don't have;
+;Mobil EP2 Grease;1;0;Don't have;
+;Tesa Wire Loom Harness Tape;1;0;Don't have;
+;6x3mm Neodymium Magnet;8;0;Don't have;
+;PTFE Tube (4mm OD 3mm ID) - 1m;1;0;Don't have;
+Cables;Nylon Cable Ties 4";40;20;Partial;20x 4x150mm ties available (10 each) - 150mm long vs 4" (100mm)
+;1/2" Braided Cable Sheathing (ft);5;0;Don't have;
+;18AWG High-Flex Wire (ft);10;0;Don't have;
+;20AWG High-Flex Wire (ft);10;0;Don't have;
+;22-24AWG High-Flex Wire (min 19 strand)(ft);100;0;Don't have;
+;Spade Crimp Terminal 4.8mm Female;10;0;Don't have;
+;JST XH Connector Plug 4 Position;5;0;Don't have;
+;JST XH Connector Plug 3 Position;4;0;Don't have;
+;JST XH Connector Plug 2 Position;2;0;Don't have;
+;JST XH Female Pin;40;0;Don't have;
+;MicroFit3 Connector Plug 4 Position;2;0;Don't have;
+;MicroFit3 Connector Plug 3 Position;1;0;Don't have;
+;MicroFit3 Connector Plug 2 Position;5;0;Don't have;
+;MicroFit3 Connector Receptacle 4 Position;2;0;Don't have;
+;MicroFit3 Connector Receptacle 3 Position;1;0;Don't have;
+;MicroFit3 Connector Receptacle 2 Position;5;0;Don't have;
+;MicroFit3 Female Pin;40;0;Don't have;
+;MicroFit3 Male Pin;40;0;Don't have;
+;10x11 Cable Chain - 1m, 3 End Sets;1;0;Don't have;
+;WAGO 221-415 Lever-Nuts;3;0;Don't have;
+;WAGO 221-412 Lever-Nuts;3;0;Don't have;
+Frame;DIN 3 Rails (35mm W) - 370mm;2;0;Don't have;Not yet purchased (see Ender3Trident parts.md)
+;Misumi HFSB5-2020-240;1;0;Don't have;Check if included in LDO frame kit (not yet purchased)
+;Misumi HFSB5-2020-370-TPW;9;0;Don't have;Check if included in LDO frame kit (not yet purchased)
+;Misumi HFSB5-2020-330-LTP;1;0;Don't have;Check if included in LDO frame kit (not yet purchased)
+;Misumi HFSB5-2020-330;1;0;Don't have;Check if included in LDO frame kit (not yet purchased)
+;Misumi HFSB5-2020-500-LCP-RCP-AV360;4;0;Don't have;Check if included in LDO frame kit (not yet purchased)
+;Misumi HFSB5-2020-370-AH185-TPW;1;0;Don't have;Check if included in LDO frame kit (not yet purchased)
+;Misumi HFSB5-2020-232-LTP;1;0;Don't have;Check if included in LDO frame kit (not yet purchased)
+;Misumi HFSB5-2020-370-AH185;1;0;Don't have;Check if included in LDO frame kit (not yet purchased)
+Panels;Coroplast Sheet - 369x369x4 mm;2;0;Don't have;
+;Coroplast Sheet - 382x472x4 mm;1;0;Don't have;
+;Acrylic Sheet Clear - 191.5x473x3 mm;2;0;Don't have;
+;Acrylic Sheet Clear - 383x473x3 mm;2;0;Don't have;
+;Acrylic Sheet Clear - 383x383x3 mm;1;0;Don't have;
+Buildplate;3M 468MP Adhesive Sheet - 10"x10";1;0;Don't have;
+;PEI 0.04" Sheet - 10"x10";1;0;Don't have;
+;MIC6 5/16" Plate - 10"x10";1;0;Don't have;
+;Keenovo Silicone AC Heater w/ thermistor - 200x200mm (300W);1;0;Don't have;2x Ender 3 hotbeds (235x235 220W) not compatible

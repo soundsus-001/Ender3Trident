@@ -29,7 +29,7 @@
 | Rubber foot pads | 8× 20x40x3mm pads | 4× Rubber Foot (**verify** fit/flatness) |
 | Creality mainboard (yes, as secondary MCU) | 2× 1284P mainboards | optional — NOT needed if Octopus Pro drives all 6 steppers + bed heater directly |
 
-**Already purchased (see parts.md):** LDO frame kit 250mm, DIN rails 35mm, MGN9H 300 ×5, MGN12H 300 ×1.
+**Not yet purchased (see parts.md):** LDO frame kit 250mm, DIN rails 35mm, MGN9H 300 ×5, MGN12H 300 ×1. *(Nothing has been bought yet — these were previously assumed owned; add them to the budget when ordering.)*
 
 ## BUY — Core (≈ $805; ~$755 trimmed; see totals)
 
