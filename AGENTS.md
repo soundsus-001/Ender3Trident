@@ -18,8 +18,10 @@ Hardware project (WIP): building a Voron Trident 3D printer, 250mm build size, w
 
 ## BOM format
 
-- Trident BOM: semicolon-separated `Category;Description;Qty;Notes`; `Category` is only filled on the first row of each group (blank thereafter).
-- Ender-3 BOM: different schema, comma-separated `Part Code,Part Name,Specification,UNIT,Qty`. Do not mix the two formats.
+All BOM/gap CSVs are **comma-separated** with a **title row** on line 1 and a header row on line 2 (fields containing commas are quoted).
+- `Ender-3 BOM.csv`: `Part Code,Part Name,Specification,UNIT,Qty`.
+- `Trident250mmBOM.csv` (and the byte-identical root `vorontrident250mm.csv`): `Category,Part Name,Specification,UNIT,Qty`; `Category` is filled on every row.
+- `Ender3Trident have-vs-need.csv` (derived gap analysis): `Category,Part Name,Qty Needed,Qty Available (2x Ender 3),Status,Notes`. Regenerate if either BOM changes.
 
 ## Voron STL naming conventions (in the cloned repo)
 
